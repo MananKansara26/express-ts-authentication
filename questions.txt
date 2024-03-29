@@ -1,0 +1,7 @@
+what is use of express.json? and why we dont need to install body parser for this?
+
+what is use of express.urlencoded and what is extended option in it?
+
+what bycrypt use as secret key??
+
+what is difference betweeen normal and dev dispendency? where to store which?
