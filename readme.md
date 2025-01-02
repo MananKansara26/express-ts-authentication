@@ -47,6 +47,16 @@ The following API endpoints are available:
 - `GET /user`: List of all users.
 - `GET /user/:userId`: User information from the id.
 
+## Setting Up a Self-Hosted CI Runner
+
+To set up a self-hosted CI runner for your repository, follow the steps below. This process will ensure that the runner is automatically created (if it doesn't already exist) and started.
+
+1. **Check for Existing Runner**: First, ensure that a self-hosted runner is not already set up for the repository. If one exists, you can skip the creation step.
+2. **Create a Self-Hosted Runner**: If a self-hosted runner does not already exist, proceed with creating a new runner for your repository.
+3. **Start the Runner**: Once the runner is created, start it to begin processing jobs for your repository.
+
+You can automate these steps using scripts or GitHub Actions, depending on your CI platform.
+
 ## Contributing
 
 Contributions to this project are welcome! If you find any bugs, have suggestions for improvements, or would like to add new features, please submit an issue or open a pull request.
